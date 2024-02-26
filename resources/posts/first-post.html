@@ -1,93 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Blog</title>
-    <style>
-        * {
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    body {
+        background-color: rgb(147, 142, 134);
+        color: white;
+    }
 
-        body {
-            background-color: rgb(147, 142, 134);
-            color: white;
-        }
+    .container {
+        padding: 10px;
+        text-align: center;
+    }
 
-        .container {
-            padding: 10px;
-            text-align: center;
-        }
+    .artical {
+        margin: 20px;
+        align-items: center;
+        padding: 32px;
+        gap: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: rgba(30, 28, 28, 0.826);
+        border-radius: 15px;
 
-        .artical {
-            margin: 20px;
-            align-items: center;
-            display: flex;
-            padding: 32px;
-            gap: 30px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            background-color: rgba(30, 28, 28, 0.826);
-            border-radius: 15px;
+    }
 
-        }
+    .arlt-head {
+        font-size: 36px;
+        padding: 10px 0px;
+        color: rgb(237, 217, 185);
+    }
 
-        .main-artical {
-            border-right: 2px solid white;
-            padding-right: 24px;
-        }
+    .arlt-para {
+        line-height: 25px;
+    }
 
-        .arlt-head {
-            font-size: 36px;
-            padding: 10px 0px;
-            color: rgb(237, 217, 185);
-        }
+    .post-link {
+        text-decoration: none;
+        color: white;
+    }
 
-        .arlt-para {
-            line-height: 25px;
-        }
-
-        .post-link {
-            text-decoration: none;
-            color: white;
-        }
-
-        .back-btn {
-            padding: 20px;
-            font-size: 24px;
-            color: white;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <h1>Welcome To Post's World</h1>
-    </div>
-    <div class="artical">
-        <article class="main-artical">
-            <a href="" class="post-link">
-                <div class="arlt-head">My First Post</div>
-            </a>
-            <p class="arlt-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit excepturi rerum
-                quisquam consequuntur iste autem iusto consequatur architecto illo possimus aut natus, porro unde
-                veritatis voluptate quis, vel magni blanditiis ipsam rem sequi voluptatem accusantium. Reprehenderit
-                ipsa omnis quas ipsum quisquam, sit nihil corporis sapiente praesentium blanditiis sunt saepe inventore,
-                dignissimos ex molestiae ratione aliquam voluptatibus nulla neque fuga, laboriosam itaque placeat. Sunt,
-                distinctio! Amet, non eum laudantium neque necessitatibus deleniti mollitia labore eveniet temporibus
-                quis, sed quasi quam, optio vitae assumenda repellendus cumque eos reprehenderit tempora exercitationem
-                molestias voluptate! Adipisci, iure. Nemo fuga harum quisquam fugit porro pariatur magnam voluptates
-                consequatur, quia cupiditate veritatis? Voluptatum magnam fugit id voluptatem dignissimos cupiditate
-                quasi itaque ipsam consequatur architecto, nihil quae ea ad earum vitae.</p>
-        </article>
-    </div>
-    <div class="container">
-        <a href="/" class="back-btn">Go Back</a>
-    </div>
-
-</body>
-
-</html>
+    .back-btn {
+        padding: 20px;
+        font-size: 24px;
+        color: white;
+    }
+</style>
+<div class="artical">
+    <article class="main-artical">
+        <a href="/posts/first-post" class="post-link">
+            <div class="arlt-head">My First Post</div>
+        </a>
+        <p class="arlt-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit excepturi rerum
+            quisquam consequuntur iste autem iusto consequatur architecto illo possimus aut natus, porro unde
+            veritatis voluptate quis, vel magni blanditiis ipsam rem sequi voluptatem accusantium. Reprehenderit
+            ipsa omnis quas ipsum quisquam, sit nihil corporis sapiente praesentium blanditiis sunt saepe inventore,
+            dignissimos ex molestiae ratione aliquam voluptatibus nulla neque fuga, laboriosam itaque placeat. Sunt,
+            distinctio! Amet, non eum laudantium neque necessitatibus deleniti mollitia labore eveniet temporibus
+            quis, sed quasi quam, optio vitae assumenda repellendus cumque eos reprehenderit tempora exercitationem
+            molestias voluptate! Adipisci, iure. Nemo fuga harum quisquam fugit porro pariatur magnam voluptates
+            consequatur, quia cupiditate veritatis? Voluptatum magnam fugit id voluptatem dignissimos cupiditate
+            quasi itaque ipsam consequatur architecto, nihil quae ea ad earum vitae.</p>
+    </article>
+</div>

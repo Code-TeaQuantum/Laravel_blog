@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,17 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $posts = Post::all();
+    return view('welcome', [
+        'posts' => $posts
+    ]);
 });
 
 
 Route::get('/posts/{p}', function ($slug) {
-    $path = "../resources/posts/{$slug}.html";
-
-    if (!file_exists($path)) {
-        abort(404);
-    }
-    $post = file_get_contents($path);
-    return $post; 
+    $post = Post::find($slug);
+    return $post;
 });
-    
