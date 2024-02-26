@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(147, 142, 134);
+    color: white;
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
+}
+
+.artical {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    padding: 32px;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(30, 28, 28, 0.826);
+    border-radius: 15px;
+
+}
+
+.main-artical {
+    border-right: 2px solid white;
+    padding-right: 24px;    
+}
+
+.arlt-head {
+    font-size: 36px;
+    padding: 10px 0px;
+    color: rgb(237, 217, 185);
+}
+
+.arlt-para {
+    line-height: 25px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: white;
+}
+.back-btn{
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+}
